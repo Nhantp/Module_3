@@ -30,7 +30,6 @@ create table OrderDetail(
     foreign key (oID) references order1(oID),
     foreign key (pID) references product(pID)
 );
-drop table OrderDetail;
-describe OrderDetail;
+
 
 

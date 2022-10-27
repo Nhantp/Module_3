@@ -25,11 +25,15 @@ create table product(
 create table OrderDetail(
 	oID int,
     pID int,
-    odQTY varchar(20),
+    odQTY int,
     primary key(oID,pID),
     foreign key (oID) references order1(oID),
     foreign key (pID) references product(pID)
 );
+drop table OrderDetail;
+select c.cID, c.cName, c.cAge
+from Customer c  left join order1 o on c.cID=o.cID
+where o.cID is null;
 
 
 

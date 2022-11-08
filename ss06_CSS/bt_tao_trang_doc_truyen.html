@@ -10,82 +10,140 @@
             height: 650px;
             margin: 0px auto;
             border: 2px solid red;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        h1{
-            width: 1300px;
+
+        h1 {
+            width: 1304px;
             margin: 0px auto;
             background-color: red;
             text-align: center;
             color: white;
-        } 
-        h2{
-            width: 1300px;
-            text-align: center;
-            
-        }  
+        }
 
         .class1>a {
             width: 320px;
-            padding: 40px 20px;
-            margin-left: 50px;
+            font-size: 20px;
+            padding: 20px 20px;
+            margin-left: 36px;
+            margin-top: 40px;
             text-align: center;
             float: left;
             display: block;
             text-decoration: none;
-            color: white;
+            color: red;
+            font-weight: bold;
         }
+
 
         .class1>a:hover {
-            background: floralwhite;
-        }
-
-        .class2>p {
-            display: none;
+            background-color: antiquewhite;
+            text-decoration: underline;
         }
 
         .class1>a>img {
             display: block;
-            max-width: 250px;
+            width: 320px;
+            height: 200px;
+
         }
-        .clear-both{
+
+        .clear-both {
             clear: both;
         }
     </style>
 </head>
 
 <body>
-    <ul>
-        <h1>Truyen Ngan Vip Pro Plus Plus</h1>
-        <div id="wrapper">
-            <ul class="class1">
-                <h2>Mục Lục</h2>
-                <a href="#nd1">Truyen 1
-                    <img src="img/img1.jpg">
-                </a>
-                <a href="#nd1">Truyen 2
-                    <img src="img/img1.jpg">
-                </a>
-                <a href="#nd1">Truyen 3
-                    <img src="img/img1.jpg">
-                </a>
-                <a href="#nd1">Truyen 4
-                    <img src="img/img1.jpg">
-                </a>
-                <a href="#nd1">Truyen 5
-                    <img src="img/img1.jpg">
-                </a>
-                <a href="#nd1">Truyen 6
-                    <img src="img/img1.jpg">
-                </a>
+    <div id="navigate">
+        <ul>
+            <h1>Truyen Ngan</h1>
+            <div id="wrapper">
+                <ul class="class1">
+                    <a onclick="showContent()" href="#nd1">Tình cờ gặp lại nhau
+                        <img src="img/img1.jpg">
+                    </a>
+                    <a onclick="showContent()" href="#nd1">Đi qua mùa gió thổi
+                        <img src="img/img2.jpg">
+                    </a>
+                    <a onclick="showContent()" href="#nd1">Mảnh đời không tách
+                        <img src="img/img3.jpg">
+                    </a>
+                    <a onclick="showContent()" href="#nd1">Ký ức cầu vồng
+                        <img src="img/img4.jpg">
+                    </a>
+                    <a onclick="showContent()" href="#nd1">Bầu trời sau cơn mưa
+                        <img src="img/img5.jpg">
+                    </a>
+                    <a onclick="showContent()" href="#nd1">Ngoại đạo
+                        <img src="img/img6.jpg">
+                    </a>
 
-            </ul>
-            <ul class="class2">
-                <p id="nd1">Trong phần này, chúng ta sẽ luyện tập việc nhúng css, sử dụng các thuộc tính CSS để trang
-                    trí
-                    cho một trang web đọc truyện đơn giản. Bố cục của trang web có thể tuỳ ý thiết kế.</p>
-            </ul>
-        </div>
-    </ul>
+                </ul>
+
+            </div>
+        </ul>
+
+    </div>
+
+    <div id="content1" style="display: none">
+        <h2>Coming Soon....</h2>
+    </div>
+    <div id="content2" style="display: none">
+        <h2>Coming Soon....</h2>
+    </div>
+    <div id="content3" style="display: none">
+        <h2>Coming Soon....</h2>
+    </div>
+    <div id="content4" style="display: none">
+        <h2>Coming Soon....</h2>
+    </div>
+    <div id="content5" style="display: none">
+        <h2>Coming Soon....</h2>
+    </div>
+    <div id="content6" style="display: none">
+        <h2>Coming Soon....</h2>
+    </div>
+
+
+
+    <script>
+        function showContent() {
+            document.getElementById('navigate').style.display = 'none';
+            document.getElementById('content1').style.display = 'block';
+            return;
+        }
+
+        function showContent() {
+            document.getElementById('navigate').style.display = 'none';
+            document.getElementById('content2').style.display = 'block';
+            return;
+        }
+
+        function showContent() {
+            document.getElementById('navigate').style.display = 'none';
+            document.getElementById('content3').style.display = 'block';
+            return;
+        }
+
+        function showContent() {
+            document.getElementById('navigate').style.display = 'none';
+            document.getElementById('content4').style.display = 'block';
+            return;
+        }
+
+        function showContent() {
+            document.getElementById('navigate').style.display = 'none';
+            document.getElementById('content5').style.display = 'block';
+            return;
+        }
+
+        function showContent() {
+            document.getElementById('navigate').style.display = 'none';
+            document.getElementById('content6').style.display = 'block';
+            return;
+        }
+    </script>
 </body>
 
 </html>

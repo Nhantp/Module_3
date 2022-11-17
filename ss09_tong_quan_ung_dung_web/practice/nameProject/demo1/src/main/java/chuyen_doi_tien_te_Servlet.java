@@ -1,0 +1,27 @@
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.*;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+@WebServlet(name = "chuyen_doi_tien_te_Servlet", value = "/convert")
+public class chuyen_doi_tien_te_Servlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        float rate = Float.parseFloat(request.getParameter("rate"));
+        float usd = Float.parseFloat(request.getParameter("usd"));
+        float vnd = rate *usd;
+        PrintWriter writer=response.getWriter();
+        writer.println("<html>");
+        writer.println("<h1>Rate: "+rate +"<h1>");
+        writer.println("<h1>USD: "+usd +"<h1>");
+        writer.println("<h1>VND: "+vnd +"<h1>");
+        writer.println("<html>");
+    }
+}

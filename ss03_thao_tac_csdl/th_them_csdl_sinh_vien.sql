@@ -27,11 +27,53 @@ VALUES (1, 1, 8, 1),
        (1, 2, 10, 2),
        (2, 1, 12, 1),
        (2,3,15,1);
-delete from mark where markID=3;
-select *from mark;
-       
-       
+
+select *from student ;
+delete from mark
+where mark;
+set sql_safe_updates =0;
+create view student_view as
+select studentName,address from student;
+
+select *from student_view;
+
+update student_view
+set address='Quang nam'
+where studentName ='Hung';
+drop view student_view;
+
+select *from student where studentName='Hung';
+explain select *from student where studentName='Hung';
+alter table student add index idx_studentName(studentName);
+explain select *from student where studentName ='Hung';
+
+alter table student add index idx_studenttt(studentName, address);
+explain select *from student where studentName ='Hung' or address='Quang nam' ;
+
+alter table student drop index idx_studenttt;
+
+explain	select *from student where studentName like '%H';      
+
+delimiter //
+create procedure findAllStudent()
+begin
+select *from student;
+end //
+delimiter ;
+call findAllStudent();
+
+delimiter //
+-- drop procedure if exists `findAllStudent ` //
+create procedure findAllStudent()
+begin 
+select *from student where studentName='Hoa';
+end //       
 select *from class;
 select *from student;
 select *from subject;
 select *from mark;
+select *from student where studentName like 'H%';
+select *from student where studentID in(1,3);
+select *from student where studentID=1 or studentID =3;
+select student.*
+from student

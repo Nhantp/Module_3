@@ -7,6 +7,7 @@
 <body>
 <style>
     form{
+
         border: 3px solid #cdcdcd;
         width: 250px;
     }

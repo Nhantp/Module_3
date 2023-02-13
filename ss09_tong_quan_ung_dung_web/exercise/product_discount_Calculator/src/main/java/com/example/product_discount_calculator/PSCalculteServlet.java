@@ -21,7 +21,7 @@ public class PSCalculteServlet extends HttpServlet {
         String productDescription = request.getParameter("productDescription");
         float listPrice = Float.parseFloat(request.getParameter("listPrice"));
         float discountPresent = Float.parseFloat(request.getParameter("discountPresent"));
-        double discountAmount = listPrice * discountPresent * 0.01;
+        double  discountAmount = listPrice * discountPresent * 0.01;
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
         writer.println("<h1>Product Description: " + productDescription + "</h1>");

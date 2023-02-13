@@ -12,7 +12,8 @@ create table ChiTietPhieuXuat(
     DGXuat int,
     SLXuat int,
     primary key(SoPX, MaVTU),
-	foreign key (SoPX) references PhieuXuat(SoPX) 
+	foreign key (SoPX) references PhieuXuat(SoPX),
+    foreign key (MaVTU) references VatTu(MaVTU) 
 );
 drop table ChiTietPhieuXuat;
 

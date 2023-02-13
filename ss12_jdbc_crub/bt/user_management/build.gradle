@@ -24,8 +24,9 @@ tasks.withType(JavaCompile) {
 dependencies {
     compileOnly('javax.servlet:javax.servlet-api:4.0.1')
     implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
-    // https://mvnrepository.com/artifact/org.webjars/bootstrap
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'
     implementation group: 'org.webjars', name: 'bootstrap', version: '5.2.3'
+
 
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")

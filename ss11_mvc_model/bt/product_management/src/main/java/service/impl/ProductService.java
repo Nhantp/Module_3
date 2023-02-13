@@ -3,44 +3,65 @@ package service.impl;
 import model.Product;
 import service.IProductService;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ProductService implements IProductService {
-    List<Product> productList=new ArrayList<>();
+    private static Map<String, Product> productMap;
 
-    @Override
-    public void display() {
-
+    static {
+        productMap = new HashMap<>();
+        productMap.put("PD01", new Product("PD01", "nuoc", 11, "t", "reo"));
+        productMap.put("PD02", new Product("PD02", "che", 13, "td", "regg"));
+        productMap.put("PD03", new Product("PD03", "oi", 16, "tc", "recc"));
+        productMap.put("PD04", new Product("PD04", "xoai", 17, "rt", "reff"));
+        productMap.put("PD05", new Product("PD05", "cam", 19, "tu", "reww"));
     }
 
     @Override
     public void add(Product product) {
-        productList.add(product);
+        productMap.put(product.getId(), product);
     }
 
     @Override
-    public void update(Product product) {
-
+    public Product update(Product product) {
+        productMap.put(product.getId(), product);
+        return product;
     }
 
     @Override
-    public void delete(Product product) {
-        productList.remove(product);
+    public void delete(String id) {
+        productMap.remove(id);
     }
 
     @Override
-    public void check(Product product) {
-
+    public void check(String id) {
+        productMap.get(id);
     }
 
     @Override
-    public void searchByName(Product product) {
+    public List<Product> searchByName(String name) {
+        List<Product> result = new ArrayList<>();
 
+        for (Map.Entry<String, Product> e : productMap.entrySet()) {
+            if (e.getValue().getName().contains(name)) {
+                result.add(e.getValue());
+            }
+        }
+
+        return result;
+
+//       return productMap.values().stream().filter(e -> e.getName().contains(name)).collect(Collectors.toList());
     }
 
     @Override
     public List<Product> findAll() {
-        return productList;
+        return new ArrayList<>(productMap.values());
     }
+
+    @Override
+    public Product findById(String id) {
+        return productMap.get(id);
+    }
+
 }

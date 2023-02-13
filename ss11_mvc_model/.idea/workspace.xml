@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30c3763b-90d5-4062-8251-99a6ba2887d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss09_tong_quan_ung_dung_web/exercise/product_discount_Calculator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt/product_management/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt/product_management/src/main/webapp/product/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt/product_management/src/main/webapp/product/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt/product_management/src/main/webapp/product/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/java/repository/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/java/repository/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/webapp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/webapp/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/webapp/user/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/update_user/src/main/webapp/user/sort.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/java/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/java/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/java/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/java/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/webapp/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss12_jdbc_crub/bt/user_management/src/main/webapp/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss02_thiet_ke_va_tao_csdl/th_hoa_don.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ss02_thiet_ke_va_tao_csdl/th_hoa_don.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss09_tong_quan_ung_dung_web/exercise/product_discount_Calculator/src/main/java/com/example/product_discount_calculator/PSCalculteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss09_tong_quan_ung_dung_web/exercise/product_discount_Calculator/src/main/java/com/example/product_discount_calculator/PSCalculteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss09_tong_quan_ung_dung_web/exercise/product_discount_Calculator/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss09_tong_quan_ung_dung_web/exercise/product_discount_Calculator/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bt/product_management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/bt/product_management/src/main/java/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/bt/product_management/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/src/main/java/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bt/product_management/src/main/java/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/src/main/java/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bt/product_management/src/main/java/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt/product_management/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bt/product_management/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2LclH2vx9DWEu4H3fo93RFr6MMy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/Codegym/A05/Module_3/ss11_mvc_model/bt/product_management",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30c3763b-90d5-4062-8251-99a6ba2887d3" name="Changes" comment="" />
+      <created>1676178161184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676178161184</updated>
+      <workItem from="1676178162634" duration="50000" />
+    </task>
+    <servers />
+  </component>
+</project>
